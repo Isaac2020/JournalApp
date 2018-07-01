@@ -13,6 +13,7 @@ import android.view.View;
 
 import com.gdgminna.android.journalapp.fragments.MyJournalsFragment;
 import com.gdgminna.android.journalapp.fragments.RecentJournalsFragment;
+import com.gdgminna.android.journalapp.fragments.TopJournalsFragment;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends  BaseActivity  {
@@ -33,7 +34,7 @@ public class MainActivity extends  BaseActivity  {
             private final Fragment[] mFragments = new Fragment[] {
                     new RecentJournalsFragment(),
                     new MyJournalsFragment(),
-                    new MyJournalsFragment(),
+                    new TopJournalsFragment(),
 
             };
             private final String[] mFragmentNames = new String[] {

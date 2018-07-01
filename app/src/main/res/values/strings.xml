@@ -15,9 +15,8 @@
     <string name="hint_email">Enter email</string>
     <string name="sign_in">Sign In</string>
     <string name="heading_recent">Recent</string>
-    <string name="heading_my_posts">My Posts</string>
-    <string name="heading_my_top_posts">Top Posts</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="heading_my_posts">My Journals</string>
+    <string name="heading_my_top_posts">Top Journals</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>

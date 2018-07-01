@@ -97,7 +97,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     private  void signInWithGoogle() {
         Log.d(TAG, "SignIn With Google");
         showProgressDialog();
-        startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        Toast.makeText(LoginActivity.this, "Process not complete, Signup/Login with email",
+                Toast.LENGTH_LONG).show();
         hideProgressDialog();
 
     }

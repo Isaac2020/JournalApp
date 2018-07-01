@@ -13,7 +13,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public abstract class JournalDetailActivity extends BaseActivity implements View.OnClickListener {
+public class JournalDetailActivity extends BaseActivity implements View.OnClickListener {
 
     private static final String TAG = "JournalDetailActivity";
     public static final String EXTRA_POST_KEY = "post_key";
@@ -93,5 +93,10 @@ public abstract class JournalDetailActivity extends BaseActivity implements View
         if (mPostListener != null) {
             mPostReference.removeEventListener(mPostListener);
         }
+    }
+
+    @Override
+    public void onClick(View view) {
+        
     }
 }
