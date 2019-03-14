@@ -12,5 +12,6 @@ public class MyJournalsFragment extends JournalListFragment {
         // All my posts
         return databaseReference.child("user-posts")
                 .child(getUid());
+
     }
 }

@@ -47,6 +47,7 @@ public abstract class JournalListFragment extends Fragment {
 
         // [START create_database_reference]
         mDatabase = FirebaseDatabase.getInstance().getReference();
+        mDatabase.keepSynced(true);
         // [END create_database_reference]
 
         mRecycler = rootView.findViewById(R.id.messages_list);

@@ -15,6 +15,7 @@ public class TopJournalsFragment extends JournalListFragment {
         String myUserId = getUid();
         Query myTopPostsQuery = databaseReference.child("user-posts").child(myUserId)
                 .orderByChild("starCount");
+        myTopPostsQuery.keepSynced(true);
         // [END my_top_posts_query]
 
         return myTopPostsQuery;

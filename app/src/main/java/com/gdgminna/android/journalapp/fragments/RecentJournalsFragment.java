@@ -14,8 +14,10 @@ public class RecentJournalsFragment extends JournalListFragment {
         // due to sorting by push() keys
         Query recentPostsQuery = databaseReference.child("posts")
                 .limitToFirst(100);
+        recentPostsQuery.keepSynced(true);
         // [END recent_posts_query]
 
         return recentPostsQuery;
     }
+
 }

@@ -35,6 +35,5 @@ public class JournalViewHolder extends RecyclerView.ViewHolder {
         starView.setOnClickListener(starClickListener);
     }
 
-    {
-    }
+
 }
